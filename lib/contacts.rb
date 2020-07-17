@@ -9,6 +9,7 @@ def remove_strawberry(contacts)
           data.delete_if 
           |ice_cream| ice_cream == "strawberry"
         end
+        end
       end
     end
   end
